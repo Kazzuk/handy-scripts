@@ -4,7 +4,7 @@ import requests
 BASE_URL = "https://repo.opencollab.dev/maven-snapshots"
 GROUP_ID = "org.cloudburstmc.protocol"
 ARTIFACT_IDS = ["bedrock-codec", "bedrock-connection", "common"]
-VERSION = "3.0.0.Beta1-SNAPSHOT"
+VERSION = "3.0.0.Beta2-SNAPSHOT"
 
 
 def construct_metadata_url(artifact_id: str) -> str:
